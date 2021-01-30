@@ -1,0 +1,42 @@
+Project: Math
+本次调参:   If:  1.34    For:   0.4try:   1.0     Exp:    0.76     ConstructorInvocation/DO =0
+
+Project:  Math     bug总数:75
+a=10;   impro:38    lower:28     CumuEXAMold:7227     cumuEXAMnew6402      Rimp:0.8858447488584474
+
+Project: Lang
+本次调参:   If:  1.42    For:   0.4try:   1.0     Exp:    0.69     ConstructorInvocation/DO =0
+
+Project:  Lang     bug总数:34
+a=10;   impro:18    lower:15     CumuEXAMold:1220     cumuEXAMnew1040      Rimp:0.8524590163934426
+
+Project: Closure
+本次调参:   If:  1.22    For:   0.32try:   1.0     Exp:    0.81     ConstructorInvocation/DO =0
+
+Project:  Closure     bug总数:83
+a=10;   impro:52    lower:19     CumuEXAMold:41306     cumuEXAMnew36933      Rimp:0.8941316031569263
+
+Project: Cli
+本次调参:   If:  1.38    For:   0.5try:   1.0     Exp:    0.72     ConstructorInvocation/DO =0
+
+Project:  Cli     bug总数:32
+a=10;   impro:10    lower:13     CumuEXAMold:1260     cumuEXAMnew1108      Rimp:0.8793650793650793
+
+Project: Compress
+本次调参:   If:  1.29    For:   0.34try:   1.0     Exp:    0.79     ConstructorInvocation/DO =0
+
+Project:  Compress     bug总数:35
+a=10;   impro:18    lower:10     CumuEXAMold:2425     cumuEXAMnew2003      Rimp:0.825979381443299
+
+Project: JacksonDatabind
+本次调参:   If:  1.4    For:   0.35try:   1.0     Exp:    0.71     ConstructorInvocation/DO =0
+
+Project:  JacksonDatabind     bug总数:64
+a=10;   impro:22    lower:35     CumuEXAMold:7327     cumuEXAMnew8240      Rimp:1.1246076156680769
+
+Project: Jsoup
+本次调参:   If:  1.53    For:   0.5try:   1.0     Exp:    0.79     ConstructorInvocation/DO =0
+
+Project:  Jsoup     bug总数:53
+a=10;   impro:18    lower:28     CumuEXAMold:3468     cumuEXAMnew3917      Rimp:1.1294694348327565
+
