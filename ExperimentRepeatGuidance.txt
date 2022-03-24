@@ -1,0 +1,24 @@
+# this file is to show how to repeat our experiment
+
+First, HybridAFL needs another statement-level fault localization method to calculate the initial suspicious score for each statement in the project under testing. Here we select the widely used SBFL. The GZoltar plugin is the off-the-shelf tool for acquiring the execution information of Defects4j projects.
+
+With the execution information in "spectra" file and "matrix" file, we execute the "CalSBFLScore.java" for calculating the initial suspicious score for each statement. 
+Please remember to make sure that the global variable "experiment.SBFLFomula" is consistent with the SBFL formula you selected in lines 293-301.
+
+After that, you could directly repeat our evaluation by executing "experiment.java"（run as java application）. Please note that our execution framework is designed for the Defects4j data set only.
+
+
+
+
+
+The following is the function introduction of each of our java files:
+
+experiment.java: Calculating the defect localization performance of SBFL and HybridAFL.
+
+CalSBFLScore.java: Calculating the initial suspicious score based on execution information.
+
+CollectNewGroundTruth.java: Comparing the buggy version with the fixed version to acquire buggy code lines.
+
+CumulateTypeUpgraded.java: Collecting the number of different types of statements from java files.
+
+We also provide the intermediate statistical results involved in our experiments. Our framework could be utilized for counting the statement error rate in other java projects. If you need help, please contact us.
